@@ -1,0 +1,28 @@
+--cpu Cortex-M4.fp
+".\out\objects\startup_stm32f4xx.o"
+".\out\objects\misc.o"
+".\out\objects\stm32f4xx_can.o"
+".\out\objects\stm32f4xx_exti.o"
+".\out\objects\stm32f4xx_flash.o"
+".\out\objects\stm32f4xx_gpio.o"
+".\out\objects\stm32f4xx_i2c.o"
+".\out\objects\stm32f4xx_usart.o"
+".\out\objects\stm32f4xx_rcc.o"
+".\out\objects\stm32f4xx_dbgmcu.o"
+".\out\objects\stm32f4xx_dcmi.o"
+".\out\objects\stm32f4xx_pwr.o"
+".\out\objects\stm32f4xx_rtc.o"
+".\out\objects\stm32f4xx_sdio.o"
+".\out\objects\stm32f4xx_syscfg.o"
+".\out\objects\stm32f4xx_spi.o"
+".\out\objects\stm32f4_discovery.o"
+".\out\objects\main.o"
+".\out\objects\stm32f4xx_it.o"
+".\out\objects\system_stm32f4xx.o"
+".\out\objects\spi1.o"
+".\out\objects\mpu9250.o"
+".\out\objects\usart.o"
+--library_type=microlib --strict --scatter ".\out\Objects\RM2016_1X3.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\out\Listings\RM2016_1X3.map" -o .\out\Objects\RM2016_1X3.axf
