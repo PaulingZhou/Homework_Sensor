@@ -66,7 +66,7 @@ for i=1:size(recbuf,1)
         gyro(i,j) = recbuf(i,2*j+7)*256+recbuf(i,2*j+8);
     end
 end
-save acc;
-save temp;
-save gyro;
-save recbuf;
+% save acc;
+% save temp;
+% save gyro;
+% save recbuf;
