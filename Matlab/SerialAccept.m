@@ -60,13 +60,16 @@ end
 for i=1:size(recbuf,1)
     for j=1:3
         acc(i,j) = recbuf(i,2*j-1)*256+recbuf(i,2*j);
+        acc(i,j) = acc(i,j)/2048;                           %实际物理量，此时加速度计满量程为+-16g
     end
-    temp(i,1) = recbuf(i,7)*256+recbuf(i,8);
+         temp(i,1) = recbuf(i,7)*256+recbuf(i,8);
     for j=1:3
         gyro(i,j) = recbuf(i,2*j+7)*256+recbuf(i,2*j+8);
+        gyro(i,j) = gyro(i,j)/16.4;
     end
 end
-% save acc;
-% save temp;
-% save gyro;
-% save recbuf;
+save acc;
+save temp;
+save gyro;
+save recbuf;
+DataHandle;

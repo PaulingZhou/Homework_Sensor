@@ -849,11 +849,11 @@ erwork --depend=.\out\objects\startup_stm32f4xx.d -o.\out\objects\startup_stm32
 ARM Macro Assembler    Page 14 
 
 
-f4xx.o -ID:\RoboMaster\RM2016_1X3_SystemBoard\RTE -IC:\Keil_v5\ARM\PACK\Keil\ST
-M32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Keil_v5\ARM\CM
-SIS\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA
- 517" --predefine="STM32F407xx SETA 1" --list=.\out\listings\startup_stm32f4xx.
-lst lib\CMSIS\ST\STM32F4xx\Source\Templates\arm\startup_stm32f4xx.s
+f4xx.o -ID:\GitHub\Homework_Sensor\RM2016_1X3_SystemBoard\RTE -IC:\Keil_v5\ARM\
+PACK\Keil\STM32F4xx_DFP\2.6.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Ke
+il_v5\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_
+VERSION SETA 517" --predefine="STM32F407xx SETA 1" --list=.\out\listings\startu
+p_stm32f4xx.lst lib\CMSIS\ST\STM32F4xx\Source\Templates\arm\startup_stm32f4xx.s
 
 
 
